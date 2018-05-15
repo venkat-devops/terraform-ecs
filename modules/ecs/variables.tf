@@ -35,6 +35,7 @@ variable "load_balancers" {
 variable "availability_zones" {
   type        = "list"
   description = "List of avalibility zones you want. Example: eu-west-1a and eu-west-1b"
+  default     = ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
 }
 
 variable "max_size" {
