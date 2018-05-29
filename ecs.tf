@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "eu-west-2"
-  profile = "mytf"
+  profile = "dp-sand"
 }
 
 module "ecs" {

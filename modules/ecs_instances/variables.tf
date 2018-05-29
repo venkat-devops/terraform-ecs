@@ -49,7 +49,12 @@ variable "iam_instance_profile_id" {
   description = "The id of the instance profile that should be used for the instances"
 }
 
-variable "private_subnet_ids" {
+# variable "private_subnet_ids" {
+#   type        = "list"
+#   description = "The list of private subnets to place the instances in"
+# }
+
+variable "public_subnet_ids" {
   type        = "list"
   description = "The list of private subnets to place the instances in"
 }
